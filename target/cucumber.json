@@ -1,0 +1,534 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-21T07:39:02.307Z",
+        "line": 2,
+        "name": "这个是套件",
+        "description": "",
+        "id": "第一个测试;这个是套件",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "假装这个地方有参数",
+            "match": {
+              "location": "com.youlu.step.QBStepDefinitions.before()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "执行测试",
+            "match": {
+              "location": "com.youlu.step.QBStepDefinitions.doUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "返回状态码\"result\"\u003d\"000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"result\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"000000\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.youlu.step.QBStepDefinitions.reCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-21T07:39:02.750Z",
+        "line": 7,
+        "name": "这个是套件",
+        "description": "",
+        "id": "第一个测试;这个是套件",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "假装这个地方有参数",
+            "match": {
+              "location": "com.youlu.step.QBStepDefinitions.before()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "执行测试",
+            "match": {
+              "location": "com.youlu.step.QBStepDefinitions.doUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat com.youlu.step.QBStepDefinitions.reCode(QBStepDefinitions.java:56)\r\n\tat ✽.返回状态码\"result\"\u003d\"000001\"(classpath:feature//QB0001.feature:10)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "返回状态码\"result\"\u003d\"000001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"result\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"000001\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.youlu.step.QBStepDefinitions.reCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "第一个测试",
+    "description": "",
+    "id": "第一个测试",
+    "keyword": "Feature",
+    "uri": "classpath:feature//QB0001.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-21T07:39:02.774Z",
+        "line": 2,
+        "name": "we find verify code",
+        "description": "",
+        "id": "we-go-the-uc-login;we-find-verify-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "当我们的cid是\"c47igvr25cgwvd4kxt2nb0d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c47igvr25cgwvd4kxt2nb0d\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.youlu.step.QB0002.当我们的cid是(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "我们的api是\"sc/captcha/captcha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sc/captcha/captcha\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.youlu.step.QB0002.我们的api是(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "我们的参数是scene\"uc_login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uc_login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.youlu.step.QB0002.我们的参数是paramsSceneUc_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we go the \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.youlu.step.QB0002.weGoTheMethod(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we assert the result\u003d\"000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000000\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.youlu.step.QB0002.weAssertTheResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-21T07:39:02.883Z",
+        "line": 9,
+        "name": "we find verify code",
+        "description": "",
+        "id": "we-go-the-uc-login;we-find-verify-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "当我们的cid是\"c47igvr25cgwvd4kxt2nb0d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c47igvr25cgwvd4kxt2nb0d\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.youlu.step.QB0002.当我们的cid是(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "我们的api是\"sc/captcha/captcha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sc/captcha/captcha\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.youlu.step.QB0002.我们的api是(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "我们的参数是scene\"uc_login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uc_login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.youlu.step.QB0002.我们的参数是paramsSceneUc_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "we go the \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.youlu.step.QB0002.weGoTheMethod(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat com.youlu.step.QB0002.weAssertTheResult(QB0002.java:74)\r\n\tat ✽.we assert the result\u003d\"000001\"(classpath:feature//QB0002.feature:14)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "we assert the result\u003d\"000001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000001\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.youlu.step.QB0002.weAssertTheResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "we go the uc_login",
+    "description": "",
+    "id": "we-go-the-uc-login",
+    "keyword": "Feature",
+    "uri": "classpath:feature//QB0002.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-21T07:39:02.898Z",
+        "line": 2,
+        "name": "we find verify code and enter the code",
+        "description": "",
+        "id": "we-go-the-uc/login;we-find-verify-code-and-enter-the-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "当我们的cidS是\"c47igvr25cgwvd4kxt2nb0d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c47igvr25cgwvd4kxt2nb0d\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.youlu.step.QB0003.当我们的cids是(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "我们的apiS是\"uc/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uc/login\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.youlu.step.QB0003.我们的apis是(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "我们的参数是scene",
+            "match": {
+              "location": "com.youlu.step.QB0003.我们的参数是scene()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we go use the \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.youlu.step.QB0003.weGoUseTheMethod(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we assert the login result\u003d\"000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000000\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.youlu.step.QB0003.weAssertTheLoginResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-21T07:39:03.290Z",
+        "line": 9,
+        "name": "we find verify code",
+        "description": "",
+        "id": "we-go-the-uc/login;we-find-verify-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "当我们的cidS是\"c47igvr25cgwvd4kxt2nb0d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c47igvr25cgwvd4kxt2nb0d\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.youlu.step.QB0003.当我们的cids是(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "我们的apiS是\"uc/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uc/login\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.youlu.step.QB0003.我们的apis是(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "我们的参数是scene",
+            "match": {
+              "location": "com.youlu.step.QB0003.我们的参数是scene()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "we go use the \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.youlu.step.QB0003.weGoUseTheMethod(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat com.youlu.step.QB0003.weAssertTheLoginResult(QB0003.java:62)\r\n\tat ✽.we assert the login result\u003d\"000001\"(classpath:feature//QB0003.feature:14)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "we assert the login result\u003d\"000001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000001\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.youlu.step.QB0003.weAssertTheLoginResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "we go the uc/login",
+    "description": "",
+    "id": "we-go-the-uc/login",
+    "keyword": "Feature",
+    "uri": "classpath:feature//QB0003.feature",
+    "tags": []
+  }
+]
